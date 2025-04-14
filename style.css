@@ -52,6 +52,9 @@ a {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
+    text-align: left;
+    padding: 200px;
+    font-style: light italic;
 }
 button {
     background-color: #3882f6;
@@ -67,10 +70,25 @@ button {
     font-size: 36px;
 }
 
+#listado {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+#firma {
+    text-align: right;
+    font-weight: bold;
+}
+
 #Contactanos {
     background-color: white;
+
 }
 
 #ending {
     background-color: #1f2937;
+    color: white;
+    text-align: center;
 }
